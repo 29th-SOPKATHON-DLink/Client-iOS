@@ -32,6 +32,9 @@
 		92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C14C27493A3D005D03EC /* UITableViewRegisterable.swift */; };
 		92E9C14F27493A65005D03EC /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C14E27493A65005D03EC /* UIView+.swift */; };
 		92E9C15227493ADD005D03EC /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15127493ADD005D03EC /* UIViewController+.swift */; };
+		92E9C15627495004005D03EC /* CreateGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C15527495004005D03EC /* CreateGroup.storyboard */; };
+		92E9C15827495025005D03EC /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15727495025005D03EC /* CreateGroupVC.swift */; };
+		92E9C15A27495D22005D03EC /* CreateGroup.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C15927495D22005D03EC /* CreateGroup.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		92E9C14C27493A3D005D03EC /* UITableViewRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewRegisterable.swift; sourceTree = "<group>"; };
 		92E9C14E27493A65005D03EC /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		92E9C15127493ADD005D03EC /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		92E9C15527495004005D03EC /* CreateGroup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateGroup.storyboard; sourceTree = "<group>"; };
+		92E9C15727495025005D03EC /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		92E9C15927495D22005D03EC /* CreateGroup.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CreateGroup.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +90,6 @@
 				339AEFBD5AB3702C0A135648 /* Pods-Dlink-iOS.debug.xcconfig */,
 				3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,6 +168,7 @@
 			children = (
 				92E9C0F52749358C005D03EC /* Main.storyboard */,
 				92E9C0FA2749358E005D03EC /* LaunchScreen.storyboard */,
+				92E9C15527495004005D03EC /* CreateGroup.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				92E9C0F82749358E005D03EC /* Assets.xcassets */,
+				92E9C15927495D22005D03EC /* CreateGroup.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -204,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				92E9C0F32749358C005D03EC /* MainVC.swift */,
+				92E9C15727495025005D03EC /* CreateGroupVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -326,10 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E9C15A27495D22005D03EC /* CreateGroup.xcassets in Resources */,
 				92E9C0FC2749358E005D03EC /* LaunchScreen.storyboard in Resources */,
 				92E9C13B274938AE005D03EC /* Pretendard-Regular.otf in Resources */,
 				92E9C141274938AE005D03EC /* Pretendard-ExtraBold.otf in Resources */,
 				92E9C13F274938AE005D03EC /* Pretendard-ExtraLight.otf in Resources */,
+				92E9C15627495004005D03EC /* CreateGroup.storyboard in Resources */,
 				92E9C13C274938AE005D03EC /* Pretendard-SemiBold.otf in Resources */,
 				92E9C13A274938AE005D03EC /* Pretendard-Thin.otf in Resources */,
 				92E9C140274938AE005D03EC /* Pretendard-Light.otf in Resources */,
@@ -399,6 +409,7 @@
 				92E9C145274939AD005D03EC /* TempComponent.swift in Sources */,
 				92E9C12E274936F4005D03EC /* UIFont+.swift in Sources */,
 				92E9C0F42749358C005D03EC /* MainVC.swift in Sources */,
+				92E9C15827495025005D03EC /* CreateGroupVC.swift in Sources */,
 				92E9C15227493ADD005D03EC /* UIViewController+.swift in Sources */,
 				92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */,
 				92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */,
