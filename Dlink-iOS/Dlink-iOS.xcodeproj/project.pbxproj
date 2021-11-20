@@ -11,6 +11,8 @@
 		779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015C62749527A00F83ACD /* GroupTableViewCell.swift */; };
 		779015C92749527A00F83ACD /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779015C72749527A00F83ACD /* GroupTableViewCell.xib */; };
 		779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015CA274952D800F83ACD /* AppContentDataModel.swift */; };
+		4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B7FC2749592C00F2EC0D /* UIColor+.swift */; };
+		4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */; };
 		92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0EF2749358C005D03EC /* AppDelegate.swift */; };
 		92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F12749358C005D03EC /* SceneDelegate.swift */; };
 		92E9C0F42749358C005D03EC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F32749358C005D03EC /* MainVC.swift */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		339AEFBD5AB3702C0A135648 /* Pods-Dlink-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.release.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4F11B7FC2749592C00F2EC0D /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorSet.xcassets; sourceTree = "<group>"; };
 		643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dlink_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		779015C62749527A00F83ACD /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		779015C72749527A00F83ACD /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				92E9C0F82749358E005D03EC /* Assets.xcassets */,
+				4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 				92E9C12D274936F4005D03EC /* UIFont+.swift */,
 				92E9C14E27493A65005D03EC /* UIView+.swift */,
 				92E9C15127493ADD005D03EC /* UIViewController+.swift */,
+				4F11B7FC2749592C00F2EC0D /* UIColor+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -339,6 +345,7 @@
 				92E9C0F92749358E005D03EC /* Assets.xcassets in Resources */,
 				92E9C14B274939D4005D03EC /* TempXib.storyboard in Resources */,
 				92E9C0F72749358C005D03EC /* Main.storyboard in Resources */,
+				4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */,
 				92E9C13D274938AE005D03EC /* Pretendard-Black.otf in Resources */,
 				92E9C13E274938AE005D03EC /* Pretendard-Bold.otf in Resources */,
 				92E9C139274938AE005D03EC /* Pretendard-Medium.otf in Resources */,
@@ -398,6 +405,7 @@
 				779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */,
 				92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */,
 				92E9C14F27493A65005D03EC /* UIView+.swift in Sources */,
+				4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */,
 				92E9C145274939AD005D03EC /* TempComponent.swift in Sources */,
 				92E9C12E274936F4005D03EC /* UIFont+.swift in Sources */,
 				92E9C0F42749358C005D03EC /* MainVC.swift in Sources */,
