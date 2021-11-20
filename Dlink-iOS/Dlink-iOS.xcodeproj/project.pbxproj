@@ -37,6 +37,9 @@
 		92E9C15627495004005D03EC /* CreateGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C15527495004005D03EC /* CreateGroup.storyboard */; };
 		92E9C15827495025005D03EC /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15727495025005D03EC /* CreateGroupVC.swift */; };
 		92E9C15A27495D22005D03EC /* CreateGroup.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C15927495D22005D03EC /* CreateGroup.xcassets */; };
+		92E9C15C27496372005D03EC /* ParticipantDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15B27496372005D03EC /* ParticipantDataModel.swift */; };
+		92E9C16027496466005D03EC /* ParticipantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15E27496466005D03EC /* ParticipantTVC.swift */; };
+		92E9C16127496466005D03EC /* ParticipantTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C15F27496466005D03EC /* ParticipantTVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +77,9 @@
 		92E9C15527495004005D03EC /* CreateGroup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateGroup.storyboard; sourceTree = "<group>"; };
 		92E9C15727495025005D03EC /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
 		92E9C15927495D22005D03EC /* CreateGroup.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CreateGroup.xcassets; sourceTree = "<group>"; };
+		92E9C15B27496372005D03EC /* ParticipantDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantDataModel.swift; sourceTree = "<group>"; };
+		92E9C15E27496466005D03EC /* ParticipantTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantTVC.swift; sourceTree = "<group>"; };
+		92E9C15F27496466005D03EC /* ParticipantTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantTVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +186,7 @@
 		92E9C107274935C5005D03EC /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				92E9C15D27496446005D03EC /* CreateGroup */,
 				92E9C14A274939D4005D03EC /* TempXib.storyboard */,
 			);
 			path = Xibs;
@@ -241,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				92E9C142274939A4005D03EC /* TempDataModel.swift */,
+				92E9C15B27496372005D03EC /* ParticipantDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -278,6 +286,15 @@
 				92E9C14C27493A3D005D03EC /* UITableViewRegisterable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		92E9C15D27496446005D03EC /* CreateGroup */ = {
+			isa = PBXGroup;
+			children = (
+				92E9C15E27496466005D03EC /* ParticipantTVC.swift */,
+				92E9C15F27496466005D03EC /* ParticipantTVC.xib */,
+			);
+			path = CreateGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +361,7 @@
 				92E9C0FC2749358E005D03EC /* LaunchScreen.storyboard in Resources */,
 				92E9C13B274938AE005D03EC /* Pretendard-Regular.otf in Resources */,
 				92E9C141274938AE005D03EC /* Pretendard-ExtraBold.otf in Resources */,
+				92E9C16127496466005D03EC /* ParticipantTVC.xib in Resources */,
 				92E9C13F274938AE005D03EC /* Pretendard-ExtraLight.otf in Resources */,
 				92E9C15627495004005D03EC /* CreateGroup.storyboard in Resources */,
 				92E9C13C274938AE005D03EC /* Pretendard-SemiBold.otf in Resources */,
@@ -409,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E9C149274939C3005D03EC /* TempAPIService.swift in Sources */,
+				92E9C16027496466005D03EC /* ParticipantTVC.swift in Sources */,
 				92E9C147274939B5005D03EC /* TempCell.swift in Sources */,
 				92E9C143274939A4005D03EC /* TempDataModel.swift in Sources */,
 				92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */,
@@ -421,6 +440,7 @@
 				92E9C15227493ADD005D03EC /* UIViewController+.swift in Sources */,
 				92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */,
 				92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */,
+				92E9C15C27496372005D03EC /* ParticipantDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
