@@ -49,7 +49,10 @@ class AuthVC: UIViewController {
 		initUI()
 	}
 	
-	@IBAction func sojuPlusButton(_ sender: Any) {
+    @IBAction func completeButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    @IBAction func sojuPlusButton(_ sender: Any) {
 		sojuCount += 1
 		sojuCountLabel.text = "\(sojuCount)"
 	}

@@ -15,7 +15,6 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         initUI()
         setTableView()
         initDataList()
@@ -34,6 +33,7 @@ class MainVC: UIViewController {
         groupTableView.delegate = self
         
         groupTableView.backgroundColor = .clear
+        
     }
     
     func initDataList() {
@@ -59,6 +59,14 @@ extension MainVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 84
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Auth", bundle: nil)
+        guard let nextVC = storyboard.instantiateViewController(withIdentifier: "AuthVC") as? AuthVC else {return}
+        nextVC.modalPresentationStyle = .fullScreen
+        present(nextVC, animated: true, completion: nil)
+    }
+    
 }
 
 extension MainVC: UITableViewDataSource {
@@ -72,5 +80,6 @@ extension MainVC: UITableViewDataSource {
         cell.setData(homeData: homeContentList[indexPath.row])
         return cell
     }
+
 }
 

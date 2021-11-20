@@ -14,15 +14,21 @@ class GroupTableViewCell: UITableViewCell {
     @IBOutlet weak var checkButton: UIButton!
     @IBOutlet weak var bgImage: UIImageView!
     
+    var presentingAuthView: (() -> ())?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
         self.backgroundColor = .clear
         contentView.backgroundColor = .clear
+        selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        if selected{
+            presentingAuthView?()
+        }
     }
     
     func setData(homeData: GroupContentData) {

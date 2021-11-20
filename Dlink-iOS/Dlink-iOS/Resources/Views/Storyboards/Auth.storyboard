@@ -346,6 +346,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="인증완료">
                                     <color key="baseForegroundColor" name="navy"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="completeButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="TSf-xT-FwT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
