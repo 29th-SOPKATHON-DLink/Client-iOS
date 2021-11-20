@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0DFCF588289F15F4F66A9C6D /* Pods_Dlink_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */; };
+		4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B7FC2749592C00F2EC0D /* UIColor+.swift */; };
+		4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */; };
 		779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015C62749527A00F83ACD /* GroupTableViewCell.swift */; };
 		779015C92749527A00F83ACD /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779015C72749527A00F83ACD /* GroupTableViewCell.xib */; };
 		779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015CA274952D800F83ACD /* AppContentDataModel.swift */; };
-		4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B7FC2749592C00F2EC0D /* UIColor+.swift */; };
-		4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */; };
+		77FE1732274960AE00F95F0D /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FE1731274960AE00F95F0D /* Main.xcassets */; };
 		92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0EF2749358C005D03EC /* AppDelegate.swift */; };
 		92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F12749358C005D03EC /* SceneDelegate.swift */; };
 		92E9C0F42749358C005D03EC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F32749358C005D03EC /* MainVC.swift */; };
@@ -46,6 +47,7 @@
 		779015C62749527A00F83ACD /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		779015C72749527A00F83ACD /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
 		779015CA274952D800F83ACD /* AppContentDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentDataModel.swift; sourceTree = "<group>"; };
+		77FE1731274960AE00F95F0D /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
 		92E9C0EC2749358C005D03EC /* Dlink-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dlink-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9C0EF2749358C005D03EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E9C0F12749358C005D03EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			children = (
 				92E9C0F82749358E005D03EC /* Assets.xcassets */,
 				4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */,
+				77FE1731274960AE00F95F0D /* Main.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */,
 				92E9C13D274938AE005D03EC /* Pretendard-Black.otf in Resources */,
 				92E9C13E274938AE005D03EC /* Pretendard-Bold.otf in Resources */,
+				77FE1732274960AE00F95F0D /* Main.xcassets in Resources */,
 				92E9C139274938AE005D03EC /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

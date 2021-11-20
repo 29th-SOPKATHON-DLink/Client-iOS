@@ -16,26 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="WqI-A9-uzU">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="WqI-A9-uzU">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3S-Kd-IdZ">
-                                <rect key="frame" x="0.0" y="747" width="375" height="31"/>
+                                <rect key="frame" x="40" y="678" width="295" height="70"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="groupmaking_btn"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="WqI-A9-uzU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BR4-Bg-uEQ"/>
-                            <constraint firstItem="WqI-A9-uzU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="T36-L9-Vap"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d3S-Kd-IdZ" secondAttribute="bottom" id="azh-B6-RzK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d3S-Kd-IdZ" secondAttribute="trailing" id="p3W-oW-5K5"/>
-                            <constraint firstItem="d3S-Kd-IdZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qmW-2j-eUI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WqI-A9-uzU" secondAttribute="trailing" id="wmZ-Ya-cgA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WqI-A9-uzU" secondAttribute="bottom" id="xl1-cf-wuo"/>
+                            <constraint firstItem="WqI-A9-uzU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Hsn-8U-lyM"/>
+                            <constraint firstItem="WqI-A9-uzU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xyp-kV-Kv3"/>
+                            <constraint firstItem="WqI-A9-uzU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f85-L6-t7a"/>
+                            <constraint firstItem="WqI-A9-uzU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kwz-q2-0vX"/>
+                            <constraint firstItem="d3S-Kd-IdZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="v84-Uf-5gv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d3S-Kd-IdZ" secondAttribute="trailing" constant="40" id="wVX-Wl-XKZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d3S-Kd-IdZ" secondAttribute="bottom" constant="30" id="xZi-Ce-jtS"/>
                         </constraints>
                     </view>
                     <connections>
@@ -48,6 +48,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="groupmaking_btn" width="295" height="56"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
