@@ -92,26 +92,29 @@
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="k3s-fG-Nx2">
                                                         <rect key="frame" x="0.0" y="0.0" width="110.33333333333333" height="187"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyK-oT-3tN">
-                                                        <rect key="frame" x="38" y="159.33333333333331" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyK-oT-3tN">
+                                                        <rect key="frame" x="38" y="159.33333333333331" width="17" height="9.6666666666666572"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="17" id="HiJ-av-M3J"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10u-al-5oZ">
-                                                        <rect key="frame" x="83.666666666666671" y="134.66666666666669" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 46" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10u-al-5oZ">
+                                                        <rect key="frame" x="83.666666666666671" y="134.66666666666669" width="17" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXI-XQ-b0k">
-                                                        <rect key="frame" x="83.666666666666671" y="159.33333333333331" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXI-XQ-b0k">
+                                                        <rect key="frame" x="84" y="159.33333333333331" width="12" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="병" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRw-a0-6ca">
-                                                        <rect key="frame" x="76" y="100.66666666666667" width="7" height="9.6666666666666714"/>
+                                                        <rect key="frame" x="77.666666666666671" y="100.66666666666667" width="7" height="9.6666666666666714"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Bold" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub3"/>
                                                         <nil key="highlightedColor"/>
@@ -122,8 +125,8 @@
                                                         <color key="textColor" name="navy"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="76" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBj-Ee-Pyx">
-                                                        <rect key="frame" x="34" y="82.666666666666671" width="39" height="36"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="76" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBj-Ee-Pyx">
+                                                        <rect key="frame" x="35.666666666666664" y="79.666666666666671" width="38.999999999999993" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="39" id="Pqn-mz-7pd"/>
                                                         </constraints>
@@ -148,14 +151,14 @@
                                                             <constraint firstAttribute="width" constant="20" id="cGe-bh-NZW"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5K-up-94L">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5K-up-94L">
                                                         <rect key="frame" x="38" y="134.66666666666669" width="16.666666666666671" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_4" translatesAutoresizingMaskIntoConstraints="NO" id="7ZO-rc-mC3">
-                                                        <rect key="frame" x="60.666666666666671" y="154.66666666666663" width="20" height="23.333333333333343"/>
+                                                        <rect key="frame" x="61" y="154.66666666666663" width="20" height="23.333333333333343"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
@@ -166,7 +169,6 @@
                                                     <constraint firstItem="10u-al-5oZ" firstAttribute="top" secondItem="V2T-vf-S7V" secondAttribute="bottom" constant="65" id="5Hl-Es-n77"/>
                                                     <constraint firstItem="gyK-oT-3tN" firstAttribute="top" secondItem="y5K-up-94L" secondAttribute="bottom" constant="15" id="6JO-TZ-rIb"/>
                                                     <constraint firstItem="V2T-vf-S7V" firstAttribute="top" secondItem="Xyd-sD-9IC" secondAttribute="top" constant="48" id="8ZQ-14-sJo"/>
-                                                    <constraint firstItem="IBj-Ee-Pyx" firstAttribute="leading" secondItem="Xyd-sD-9IC" secondAttribute="leading" constant="34" id="9Lj-M5-qd2"/>
                                                     <constraint firstItem="y5K-up-94L" firstAttribute="top" secondItem="V2T-vf-S7V" secondAttribute="bottom" constant="65" id="C0L-mF-JuQ"/>
                                                     <constraint firstAttribute="trailing" secondItem="k3s-fG-Nx2" secondAttribute="trailing" id="Fvi-Ke-t6R"/>
                                                     <constraint firstItem="7ZO-rc-mC3" firstAttribute="leading" secondItem="gyK-oT-3tN" secondAttribute="trailing" constant="6" id="I99-xs-SCI"/>
@@ -182,9 +184,10 @@
                                                     <constraint firstItem="cRw-a0-6ca" firstAttribute="top" secondItem="V2T-vf-S7V" secondAttribute="bottom" constant="31" id="g5C-5w-sRg"/>
                                                     <constraint firstItem="Ndx-Ii-1Jj" firstAttribute="top" secondItem="V2T-vf-S7V" secondAttribute="bottom" constant="59" id="gUy-D4-CD4"/>
                                                     <constraint firstItem="cRw-a0-6ca" firstAttribute="leading" secondItem="IBj-Ee-Pyx" secondAttribute="trailing" constant="3" id="h6O-Ou-bGF"/>
-                                                    <constraint firstItem="IBj-Ee-Pyx" firstAttribute="top" secondItem="V2T-vf-S7V" secondAttribute="bottom" constant="13" id="lAX-3B-0QW"/>
+                                                    <constraint firstItem="IBj-Ee-Pyx" firstAttribute="top" secondItem="V2T-vf-S7V" secondAttribute="bottom" constant="10" id="lAX-3B-0QW"/>
                                                     <constraint firstItem="7ZO-rc-mC3" firstAttribute="top" secondItem="MSz-J0-cbA" secondAttribute="bottom" constant="3" id="ozj-5r-73n"/>
                                                     <constraint firstItem="k3s-fG-Nx2" firstAttribute="leading" secondItem="Xyd-sD-9IC" secondAttribute="leading" id="wyl-mE-Un4"/>
+                                                    <constraint firstItem="IBj-Ee-Pyx" firstAttribute="centerX" secondItem="V2T-vf-S7V" secondAttribute="centerX" id="xhV-wi-bo3"/>
                                                     <constraint firstItem="k3s-fG-Nx2" firstAttribute="top" secondItem="Xyd-sD-9IC" secondAttribute="top" id="zWD-IV-96e"/>
                                                 </constraints>
                                             </view>
@@ -216,49 +219,55 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="병" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqP-Ay-DWd">
-                                                        <rect key="frame" x="71.333333333333314" y="100.66666666666667" width="7" height="9.6666666666666714"/>
+                                                        <rect key="frame" x="76.666666666666657" y="100.66666666666667" width="7" height="9.6666666666666714"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Bold" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="76" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgs-N4-92g">
-                                                        <rect key="frame" x="34" y="82.666666666666671" width="35.333333333333343" height="36"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="69" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgs-N4-92g">
+                                                        <rect key="frame" x="35.666666666666657" y="79.666666666666671" width="39" height="36"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="39" id="Qmm-4M-hkB"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="Pretendard-SemiBold" family="Pretendard" pointSize="30"/>
                                                         <color key="textColor" name="navySub3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESIGN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7m-PR-5ph">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7m-PR-5ph">
                                                         <rect key="frame" x="15" y="47.999999999999986" width="80.333333333333329" height="21.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Bold" family="Pretendard" pointSize="18"/>
                                                         <color key="textColor" name="navy"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiN-dh-4X2">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiN-dh-4X2">
                                                         <rect key="frame" x="38" y="134.66666666666669" width="16.666666666666671" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELU-B4-9SF">
-                                                        <rect key="frame" x="38" y="159.33333333333331" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELU-B4-9SF">
+                                                        <rect key="frame" x="38" y="159.33333333333331" width="17" height="9.6666666666666572"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="17" id="aVF-gH-Ixd"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeU-aK-m6z">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeU-aK-m6z">
                                                         <rect key="frame" x="83.666666666666657" y="134.66666666666669" width="16.666666666666671" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIT-bK-Ar7">
-                                                        <rect key="frame" x="83.666666666666657" y="159.33333333333331" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIT-bK-Ar7">
+                                                        <rect key="frame" x="84" y="159.33333333333331" width="12" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_4" translatesAutoresizingMaskIntoConstraints="NO" id="D0d-TF-mVR">
-                                                        <rect key="frame" x="60.666666666666657" y="154.66666666666663" width="20" height="23"/>
+                                                        <rect key="frame" x="61" y="154.66666666666663" width="20" height="23"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="23" id="Fge-an-t2v"/>
                                                             <constraint firstAttribute="width" constant="20" id="uh6-9n-fZj"/>
@@ -267,8 +276,9 @@
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="D0d-TF-mVR" firstAttribute="top" secondItem="zdU-Dw-R21" secondAttribute="bottom" constant="3" id="27H-5v-EKV"/>
+                                                    <constraint firstItem="fgs-N4-92g" firstAttribute="centerX" secondItem="U7m-PR-5ph" secondAttribute="centerX" id="Dbe-23-xIS"/>
                                                     <constraint firstItem="gqP-Ay-DWd" firstAttribute="top" secondItem="U7m-PR-5ph" secondAttribute="bottom" constant="31" id="H3Z-PM-63p"/>
-                                                    <constraint firstItem="fgs-N4-92g" firstAttribute="top" secondItem="U7m-PR-5ph" secondAttribute="bottom" constant="13" id="HPr-8f-hJ5"/>
+                                                    <constraint firstItem="fgs-N4-92g" firstAttribute="top" secondItem="U7m-PR-5ph" secondAttribute="bottom" constant="10" id="HPr-8f-hJ5"/>
                                                     <constraint firstItem="wiN-dh-4X2" firstAttribute="top" secondItem="U7m-PR-5ph" secondAttribute="bottom" constant="65" id="Hmm-2U-caf"/>
                                                     <constraint firstItem="dIT-bK-Ar7" firstAttribute="leading" secondItem="D0d-TF-mVR" secondAttribute="trailing" constant="3" id="IM2-KF-1wR"/>
                                                     <constraint firstItem="U7m-PR-5ph" firstAttribute="top" secondItem="BZE-0b-qWW" secondAttribute="top" constant="48" id="Rax-bK-lTf"/>
@@ -281,7 +291,6 @@
                                                     <constraint firstItem="D0d-TF-mVR" firstAttribute="leading" secondItem="ELU-B4-9SF" secondAttribute="trailing" constant="6" id="gVM-bK-by4"/>
                                                     <constraint firstItem="TeU-aK-m6z" firstAttribute="top" secondItem="U7m-PR-5ph" secondAttribute="bottom" constant="65" id="gpW-gN-Urr"/>
                                                     <constraint firstItem="gQz-w5-WY6" firstAttribute="leading" secondItem="BZE-0b-qWW" secondAttribute="leading" constant="15" id="i4V-Fb-fUr"/>
-                                                    <constraint firstItem="fgs-N4-92g" firstAttribute="leading" secondItem="BZE-0b-qWW" secondAttribute="leading" constant="34" id="jOh-s1-id9"/>
                                                     <constraint firstItem="gqP-Ay-DWd" firstAttribute="leading" secondItem="fgs-N4-92g" secondAttribute="trailing" constant="2" id="kdD-qM-nyX"/>
                                                     <constraint firstItem="vxX-OS-LFV" firstAttribute="top" secondItem="BZE-0b-qWW" secondAttribute="top" id="led-xh-gty"/>
                                                     <constraint firstItem="N74-ZS-hgr" firstAttribute="top" secondItem="U7m-PR-5ph" secondAttribute="bottom" constant="59" id="liG-7u-Gsf"/>
@@ -316,56 +325,62 @@
                                                         </constraints>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="Ov9-Ti-NIQ">
-                                                        <rect key="frame" x="60.666666666666657" y="128.66666666666669" width="20" height="23"/>
+                                                        <rect key="frame" x="60.333333333333343" y="128.66666666666669" width="20" height="23"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="20" id="8j7-ma-IGA"/>
                                                             <constraint firstAttribute="height" constant="23" id="n80-rC-Nl5"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="병" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4m-Ia-a4j">
-                                                        <rect key="frame" x="71.333333333333343" y="100.66666666666667" width="7" height="9.6666666666666714"/>
+                                                        <rect key="frame" x="76.666666666666657" y="100.66666666666667" width="7" height="9.6666666666666714"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Bold" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="76" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mv2-J0-geS">
-                                                        <rect key="frame" x="34.000000000000028" y="82.666666666666671" width="35.333333333333343" height="36"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="51" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mv2-J0-geS">
+                                                        <rect key="frame" x="35.666666666666657" y="79.666666666666671" width="39" height="36"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="39" id="pJ5-Ew-iTE"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="Pretendard-SemiBold" family="Pretendard" pointSize="30"/>
                                                         <color key="textColor" name="navySub3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESIGN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSx-op-2zf">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSx-op-2zf">
                                                         <rect key="frame" x="15.000000000000028" y="47.999999999999986" width="80.333333333333329" height="21.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Bold" family="Pretendard" pointSize="18"/>
                                                         <color key="textColor" name="navy"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JE-3m-aeo">
-                                                        <rect key="frame" x="38.000000000000028" y="134.66666666666669" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JE-3m-aeo">
+                                                        <rect key="frame" x="38.000000000000028" y="134.66666666666669" width="16.333333333333329" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaP-eG-9AU">
-                                                        <rect key="frame" x="38.000000000000028" y="159.33333333333331" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaP-eG-9AU">
+                                                        <rect key="frame" x="38.000000000000028" y="159.33333333333331" width="17" height="9.6666666666666572"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="17" id="yhg-ft-u69"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwE-Hl-58L">
-                                                        <rect key="frame" x="83.666666666666657" y="134.66666666666669" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwE-Hl-58L">
+                                                        <rect key="frame" x="83.333333333333343" y="134.66666666666669" width="15.333333333333329" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNW-VF-bAU">
-                                                        <rect key="frame" x="83.666666666666657" y="159.33333333333331" width="16.666666666666671" height="9.6666666666666572"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNW-VF-bAU">
+                                                        <rect key="frame" x="84.000000000000028" y="159.33333333333331" width="12" height="9.6666666666666572"/>
                                                         <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="8"/>
                                                         <color key="textColor" name="navySub5"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_4" translatesAutoresizingMaskIntoConstraints="NO" id="anN-bQ-13I">
-                                                        <rect key="frame" x="60.666666666666657" y="154.66666666666663" width="20" height="23"/>
+                                                        <rect key="frame" x="61.000000000000028" y="154.66666666666663" width="20" height="23"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="23" id="5bV-sW-WSd"/>
                                                             <constraint firstAttribute="width" constant="20" id="Cdn-n7-gof"/>
@@ -376,7 +391,7 @@
                                                     <constraint firstItem="1tm-Ue-Wxw" firstAttribute="leading" secondItem="WiB-rS-lyY" secondAttribute="leading" constant="15" id="1ko-Em-oU0"/>
                                                     <constraint firstItem="d4m-Ia-a4j" firstAttribute="leading" secondItem="Mv2-J0-geS" secondAttribute="trailing" constant="2" id="471-ad-ChE"/>
                                                     <constraint firstItem="Ov9-Ti-NIQ" firstAttribute="leading" secondItem="2JE-3m-aeo" secondAttribute="trailing" constant="6" id="GJq-hd-lyd"/>
-                                                    <constraint firstItem="Mv2-J0-geS" firstAttribute="top" secondItem="HSx-op-2zf" secondAttribute="bottom" constant="13" id="Ijy-lI-tbN"/>
+                                                    <constraint firstItem="Mv2-J0-geS" firstAttribute="top" secondItem="HSx-op-2zf" secondAttribute="bottom" constant="10" id="Ijy-lI-tbN"/>
                                                     <constraint firstItem="HSx-op-2zf" firstAttribute="top" secondItem="WiB-rS-lyY" secondAttribute="top" constant="48" id="JMt-gE-hez"/>
                                                     <constraint firstItem="HSx-op-2zf" firstAttribute="leading" secondItem="WiB-rS-lyY" secondAttribute="leading" constant="15" id="K1f-o9-Bgj"/>
                                                     <constraint firstItem="ZaP-eG-9AU" firstAttribute="top" secondItem="2JE-3m-aeo" secondAttribute="bottom" constant="15" id="Myi-bj-S0k"/>
@@ -386,7 +401,6 @@
                                                     <constraint firstItem="Ov9-Ti-NIQ" firstAttribute="top" secondItem="HSx-op-2zf" secondAttribute="bottom" constant="59" id="To8-U8-cSV"/>
                                                     <constraint firstItem="anN-bQ-13I" firstAttribute="top" secondItem="Ov9-Ti-NIQ" secondAttribute="bottom" constant="3" id="VVz-of-vxx"/>
                                                     <constraint firstItem="39m-5y-Soy" firstAttribute="top" secondItem="WiB-rS-lyY" secondAttribute="top" id="Vb5-Nw-qA7"/>
-                                                    <constraint firstItem="Mv2-J0-geS" firstAttribute="leading" secondItem="WiB-rS-lyY" secondAttribute="leading" constant="34" id="bap-JG-7Zj"/>
                                                     <constraint firstItem="2JE-3m-aeo" firstAttribute="leading" secondItem="1tm-Ue-Wxw" secondAttribute="trailing" constant="3" id="ca0-qI-QBf"/>
                                                     <constraint firstItem="jwE-Hl-58L" firstAttribute="top" secondItem="HSx-op-2zf" secondAttribute="bottom" constant="65" id="fbl-7P-7lk"/>
                                                     <constraint firstItem="d4m-Ia-a4j" firstAttribute="top" secondItem="HSx-op-2zf" secondAttribute="bottom" constant="31" id="ioC-oW-s7c"/>
@@ -396,6 +410,7 @@
                                                     <constraint firstItem="1tm-Ue-Wxw" firstAttribute="top" secondItem="HSx-op-2zf" secondAttribute="bottom" constant="59" id="pF1-B6-ULV"/>
                                                     <constraint firstItem="jwE-Hl-58L" firstAttribute="leading" secondItem="Ov9-Ti-NIQ" secondAttribute="trailing" constant="3" id="qyq-k3-B32"/>
                                                     <constraint firstItem="iNW-VF-bAU" firstAttribute="leading" secondItem="anN-bQ-13I" secondAttribute="trailing" constant="3" id="rNJ-xF-e1G"/>
+                                                    <constraint firstItem="Mv2-J0-geS" firstAttribute="centerX" secondItem="HSx-op-2zf" secondAttribute="centerX" id="rmu-aI-mYM"/>
                                                     <constraint firstItem="39m-5y-Soy" firstAttribute="leading" secondItem="WiB-rS-lyY" secondAttribute="leading" id="scf-Hs-LLR"/>
                                                     <constraint firstAttribute="trailing" secondItem="39m-5y-Soy" secondAttribute="trailing" id="taT-de-Oy2"/>
                                                     <constraint firstItem="iNW-VF-bAU" firstAttribute="top" secondItem="jwE-Hl-58L" secondAttribute="bottom" constant="15" id="vLQ-2J-nmi"/>
@@ -431,14 +446,14 @@
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdH-Zd-WoV">
-                                                                <rect key="frame" x="20" y="36" width="14.666666666666664" height="18"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="34" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdH-Zd-WoV">
+                                                                <rect key="frame" x="20" y="36" width="18.666666666666671" height="18"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="15"/>
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="병" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yu-C6-bvH">
-                                                                <rect key="frame" x="35.666666666666664" y="40" width="8.6666666666666643" height="12"/>
+                                                                <rect key="frame" x="39.666666666666664" y="40" width="8.6666666666666643" height="12"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="10"/>
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
@@ -483,20 +498,20 @@
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rank_4567" translatesAutoresizingMaskIntoConstraints="NO" id="DH4-IQ-eVk">
                                                                 <rect key="frame" x="0.0" y="0.0" width="61" height="61"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0or-Vv-EBO">
-                                                                <rect key="frame" x="20" y="36" width="14.666666666666664" height="18"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0or-Vv-EBO">
+                                                                <rect key="frame" x="20" y="36" width="17.666666666666671" height="18"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="15"/>
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTR-kD-EwT">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Web" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTR-kD-EwT">
                                                                 <rect key="frame" x="7" y="10" width="47" height="14.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-SemiBold" family="Pretendard" pointSize="12"/>
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="병" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ov-Ie-xVU">
-                                                                <rect key="frame" x="35.666666666666657" y="40" width="8.6666666666666643" height="12"/>
+                                                                <rect key="frame" x="38.666666666666657" y="40" width="8.6666666666666643" height="12"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="10"/>
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
@@ -547,7 +562,7 @@
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfh-0K-Ey7">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Server" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfh-0K-Ey7">
                                                                 <rect key="frame" x="7" y="10" width="47" height="14.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-SemiBold" family="Pretendard" pointSize="12"/>
                                                                 <color key="textColor" name="navySub5"/>
@@ -599,15 +614,15 @@
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rank_4567" translatesAutoresizingMaskIntoConstraints="NO" id="CYw-7f-lN7">
                                                                 <rect key="frame" x="0.0" y="0.0" width="61" height="61"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wy-Qn-k0D">
-                                                                <rect key="frame" x="17" y="35" width="15" height="18"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wy-Qn-k0D">
+                                                                <rect key="frame" x="17" y="35" width="0.0" height="0.0"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-Regular" family="Pretendard" pointSize="15"/>
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPC-pQ-Qgf">
-                                                                <rect key="frame" x="7" y="10" width="47" height="14.666666666666664"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPC-pQ-Qgf">
+                                                                <rect key="frame" x="7" y="10" width="47" height="0.0"/>
                                                                 <fontDescription key="fontDescription" name="Pretendard-SemiBold" family="Pretendard" pointSize="12"/>
                                                                 <color key="textColor" name="navySub5"/>
                                                                 <nil key="highlightedColor"/>
