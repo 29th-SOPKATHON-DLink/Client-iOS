@@ -13,13 +13,92 @@ class AuthVC: UIViewController {
 	@IBOutlet weak var completeButton: UIButton?
 	@IBOutlet weak var impressionTextView: UITextView?
 	
+	@IBOutlet weak var sojuCountLabel: UILabel!
+	@IBOutlet weak var beerCountLabel: UILabel!
+	@IBOutlet weak var makCountLabel: UILabel!
+	@IBOutlet weak var etcCountLabel: UILabel!
+	@IBOutlet weak var totalCountLabel: UILabel!
+	
 	let placeholder = "한줄 소감을 남겨주세요!"
 	
+	var sojuCount = 0 {
+		didSet {
+			totalCountLabel.text = "\(sojuCount + beerCount + makCount + etcCount)"
+		}
+	}
+	var beerCount = 0 {
+		didSet {
+			totalCountLabel.text = "\(sojuCount + beerCount + makCount + etcCount)"
+		}
+	}
+	var makCount = 0 {
+		didSet {
+			totalCountLabel.text = "\(sojuCount + beerCount + makCount + etcCount)"
+		}
+	}
+	var etcCount = 0 {
+		didSet {
+			totalCountLabel.text = "\(sojuCount + beerCount + makCount + etcCount)"
+		}
+	}
+	
+	
 	override func viewDidLoad() {
-        super.viewDidLoad()
+		super.viewDidLoad()
 		
 		initUI()
-    }
+	}
+	
+	@IBAction func sojuPlusButton(_ sender: Any) {
+		sojuCount += 1
+		sojuCountLabel.text = "\(sojuCount)"
+	}
+	
+	@IBAction func sojuMinusButton(_ sender: Any) {
+		if sojuCount > 0 {
+			sojuCount -= 1
+			sojuCountLabel.text = "\(sojuCount)"
+		}
+		return
+	}
+	
+	@IBAction func beerPlusButton(_ sender: Any) {
+		beerCount += 1
+		beerCountLabel.text = "\(beerCount)"
+	}
+	
+	@IBAction func beerMinusButton(_ sender: Any) {
+		if beerCount > 0 {
+			beerCount -= 1
+			beerCountLabel.text = "\(beerCount)"
+		}
+		return
+	}
+	
+	@IBAction func makPlusButton(_ sender: Any) {
+		makCount += 1
+		makCountLabel.text = "\(makCount)"
+	}
+	
+	@IBAction func makMinusButton(_ sender: Any) {
+		if makCount > 0 {
+			makCount -= 1
+			makCountLabel.text = "\(makCount)"
+		}
+		return
+	}
+	@IBAction func etcPlusButton(_ sender: Any) {
+		etcCount += 1
+		etcCountLabel.text = "\(etcCount)"
+	}
+	
+	@IBAction func etcMinusButton(_ sender: Any) {
+		if etcCount > 0 {
+			etcCount -= 1
+			etcCountLabel.text = "\(etcCount)"
+		}
+		return
+	}
     
 }
 

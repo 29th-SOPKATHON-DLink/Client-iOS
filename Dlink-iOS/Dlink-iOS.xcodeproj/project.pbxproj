@@ -10,6 +10,9 @@
 		0DFCF588289F15F4F66A9C6D /* Pods_Dlink_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */; };
 		4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B7FC2749592C00F2EC0D /* UIColor+.swift */; };
 		4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */; };
+		4F11B80327495D8300F2EC0D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B80227495D8300F2EC0D /* AuthVC.swift */; };
+		4FD8888A274966D3001F9130 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD88889274966D3001F9130 /* Auth.storyboard */; };
+		4FD8888C27497386001F9130 /* Auth.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8888B27497386001F9130 /* Auth.xcassets */; };
 		92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0EF2749358C005D03EC /* AppDelegate.swift */; };
 		92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F12749358C005D03EC /* SceneDelegate.swift */; };
 		92E9C0F42749358C005D03EC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F32749358C005D03EC /* MainVC.swift */; };
@@ -47,6 +50,9 @@
 		3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.release.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4F11B7FC2749592C00F2EC0D /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorSet.xcassets; sourceTree = "<group>"; };
+		4F11B80227495D8300F2EC0D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		4FD88889274966D3001F9130 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		4FD8888B27497386001F9130 /* Auth.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Auth.xcassets; sourceTree = "<group>"; };
 		643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dlink_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9C0EC2749358C005D03EC /* Dlink-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dlink-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9C0EF2749358C005D03EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +185,7 @@
 				92E9C0F52749358C005D03EC /* Main.storyboard */,
 				92E9C0FA2749358E005D03EC /* LaunchScreen.storyboard */,
 				92E9C15527495004005D03EC /* CreateGroup.storyboard */,
+				4FD88889274966D3001F9130 /* Auth.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 				92E9C0F82749358E005D03EC /* Assets.xcassets */,
 				4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */,
 				92E9C15927495D22005D03EC /* CreateGroup.xcassets */,
+				4FD8888B27497386001F9130 /* Auth.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -224,6 +232,7 @@
 			children = (
 				92E9C0F32749358C005D03EC /* MainVC.swift */,
 				92E9C15727495025005D03EC /* CreateGroupVC.swift */,
+				4F11B80227495D8300F2EC0D /* AuthVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -371,7 +380,9 @@
 				92E9C14B274939D4005D03EC /* TempXib.storyboard in Resources */,
 				92E9C0F72749358C005D03EC /* Main.storyboard in Resources */,
 				4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */,
+				4FD8888C27497386001F9130 /* Auth.xcassets in Resources */,
 				92E9C13D274938AE005D03EC /* Pretendard-Black.otf in Resources */,
+				4FD8888A274966D3001F9130 /* Auth.storyboard in Resources */,
 				92E9C13E274938AE005D03EC /* Pretendard-Bold.otf in Resources */,
 				92E9C139274938AE005D03EC /* Pretendard-Medium.otf in Resources */,
 			);
@@ -433,6 +444,7 @@
 				92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */,
 				92E9C14F27493A65005D03EC /* UIView+.swift in Sources */,
 				4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */,
+				4F11B80327495D8300F2EC0D /* AuthVC.swift in Sources */,
 				92E9C145274939AD005D03EC /* TempComponent.swift in Sources */,
 				92E9C12E274936F4005D03EC /* UIFont+.swift in Sources */,
 				92E9C0F42749358C005D03EC /* MainVC.swift in Sources */,
@@ -590,7 +602,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				DEVELOPMENT_TEAM = 7J855UGZA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dlink-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
