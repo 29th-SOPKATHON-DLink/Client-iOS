@@ -14,6 +14,11 @@
  🍎 **Kim So Yeon** 🍎| 🍎 **Hong Seung Hyun** 🍎 | 🍎 **Choi Eun Ju** 🍎 | 
 모임 만들기 뷰 | 인증하기 뷰 | 메인 뷰 |
 
+##  역할 분담
+- 소연 : 모임 만들기 뷰, 화면 flow 연결, 서버 연결 구현
+- 승현 : 인증하기 뷰 didset 이용한 개수 +-기능 구현, 서버 연결, 깃 충돌 해결
+- 은주 : 메인 상단 뷰 StackView 이용해 구현, 메인 하단 뷰 TableView Xib를 이용해 구현, 리드미 작성
+
 ## Foldering Convention
 
  ```
