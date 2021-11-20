@@ -32,12 +32,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="모임 만들기">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="touhcUpCompleteButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="2Ni-DO-zrR"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VdS-z8-8So">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="162"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="118"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="모임 이름을 입력하세요." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4cD-hE-IOr">
-                                        <rect key="frame" x="20" y="97" width="374" height="40"/>
+                                        <rect key="frame" x="20" y="57" width="374" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="4bj-eG-uwJ"/>
                                         </constraints>
@@ -49,19 +52,19 @@
                                 <color key="backgroundColor" name="navySub2"/>
                                 <constraints>
                                     <constraint firstItem="4cD-hE-IOr" firstAttribute="leading" secondItem="VdS-z8-8So" secondAttribute="leading" constant="20" id="5bQ-Ri-3S4"/>
-                                    <constraint firstAttribute="bottom" secondItem="4cD-hE-IOr" secondAttribute="bottom" constant="25" id="fIl-qA-iwx"/>
-                                    <constraint firstAttribute="height" constant="162" id="rFm-o2-mNL"/>
+                                    <constraint firstAttribute="bottom" secondItem="4cD-hE-IOr" secondAttribute="bottom" constant="21" id="fIl-qA-iwx"/>
+                                    <constraint firstAttribute="height" constant="118" id="rFm-o2-mNL"/>
                                     <constraint firstAttribute="trailing" secondItem="4cD-hE-IOr" secondAttribute="trailing" constant="20" id="t2I-Le-e7A"/>
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconUser" translatesAutoresizingMaskIntoConstraints="NO" id="gdu-An-kQf">
-                                <rect key="frame" x="17" y="184" width="27" height="24"/>
+                                <rect key="frame" x="17" y="140" width="27" height="24"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gg-8t-sgb">
-                                <rect key="frame" x="17" y="227" width="380" height="574"/>
+                                <rect key="frame" x="17" y="183" width="380" height="618"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oVy-xz-2v1">
-                                        <rect key="frame" x="0.0" y="0.0" width="380" height="574"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="380" height="618"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </tableView>
                                 </subviews>
@@ -74,7 +77,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="참가자 선택" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bS-z2-idm">
-                                <rect key="frame" x="47" y="185" width="82" height="22"/>
+                                <rect key="frame" x="47" y="141" width="82" height="22"/>
                                 <fontDescription key="fontDescription" name="Pretendard-Bold" family="Pretendard" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>

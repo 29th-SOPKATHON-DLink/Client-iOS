@@ -33,6 +33,9 @@ class CreateGroupVC: UIViewController {
         setTableView()
     }
     
+    @IBAction func touhcUpCompleteButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
 extension CreateGroupVC {
@@ -46,6 +49,7 @@ extension CreateGroupVC {
         
         completeButton.layer.backgroundColor = UIColor.white.cgColor
         completeButton.configuration?.contentInsets = .init(top: 15, leading: 147, bottom: 40, trailing: 147)
+
         
         titleTextView.delegate = self
         titleTextView.font = UIFont(name: "Pretendard-Bold", size: 25)
@@ -53,9 +57,15 @@ extension CreateGroupVC {
     
     func setData() {
         participantList.append(contentsOf: [
-            ParticipantDataModel(partName: "android", userName: "홍승현"),
-            ParticipantDataModel(partName: "android", userName: "김소연"),
-            ParticipantDataModel(partName: "android", userName: "최은주")
+            ParticipantDataModel(partName: "iOS", userName: "홍승현"),
+            ParticipantDataModel(partName: "iOS", userName: "김소연"),
+            ParticipantDataModel(partName: "iOS", userName: "최은주"),
+            ParticipantDataModel(partName: "기획", userName: "김두범"),
+            ParticipantDataModel(partName: "기획", userName: "윤지영"),
+            ParticipantDataModel(partName: "Design", userName: "김민영"),
+            ParticipantDataModel(partName: "Design", userName: "서채원"),
+            ParticipantDataModel(partName: "Server", userName: "한수아"),
+            ParticipantDataModel(partName: "Server", userName: "남지윤"),
         ])
     }
     
