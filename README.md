@@ -10,7 +10,7 @@
 ##  Team5 iOS Developers
  <img src="https://user-images.githubusercontent.com/63277563/142728448-8dddd57d-47cf-4c28-8872-77495c01a6a5.png" width="500"> | <img src="https://user-images.githubusercontent.com/63277563/142728452-9d56017e-30e5-4caf-b412-f323b71faa43.png" width="500"> | <img src="https://user-images.githubusercontent.com/63277563/142728450-f066f30f-c427-4288-9840-592f73c8e98e.png" width="500"> |
  :---------:|:----------:|:---------:|
- 🍎 **Kim So Yeon** 🍎| 🍎 **Hong Seung Hyeon** 🍎 | 🍎 **Choi Eun Ju** 🍎 | 
+ 🍎 **Kim So Yeon** 🍎| 🍎 **Hong Seung Hyun** 🍎 | 🍎 **Choi Eun Ju** 🍎 | 
 뭐시기뷰 | 뭐시기뷰 | 뭐시기뷰 |
 
 ## Foldering Convention
