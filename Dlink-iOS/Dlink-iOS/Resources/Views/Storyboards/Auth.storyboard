@@ -129,6 +129,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="sojuPlusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="84L-aJ-LQH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwh-jC-0Dp">
                                 <rect key="frame" x="75.5" y="301.5" width="15" height="15"/>
@@ -138,6 +141,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="sojuMinusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ZJ5-wI-nOe"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="countButton" translatesAutoresizingMaskIntoConstraints="NO" id="WKk-pL-sSx">
                                 <rect key="frame" x="57.5" y="435" width="107" height="34"/>
@@ -160,6 +166,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="makPlusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="W2W-ab-Ej0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iU-We-i9F">
                                 <rect key="frame" x="75.5" y="444.5" width="15" height="15"/>
@@ -169,6 +178,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="makMinusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7im-JC-PIY"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="countButton" translatesAutoresizingMaskIntoConstraints="NO" id="blg-zg-pHa">
                                 <rect key="frame" x="223.5" y="435" width="107" height="34"/>
@@ -191,6 +203,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="etcPlusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eY9-Jh-aEX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9m5-ay-dZU">
                                 <rect key="frame" x="241.5" y="444.5" width="15" height="15"/>
@@ -200,6 +215,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="etcMinusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="el3-cp-TcT"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="countButton" translatesAutoresizingMaskIntoConstraints="NO" id="bE4-z8-te8">
                                 <rect key="frame" x="223.5" y="292" width="107" height="34"/>
@@ -235,6 +253,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="beerPlusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ASk-u1-BAt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KR-Ui-Xoi">
                                 <rect key="frame" x="241.5" y="301.5" width="15" height="15"/>
@@ -244,6 +265,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="beerMinusButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PDc-sx-lFc"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vt0-aX-XgD">
                                 <rect key="frame" x="20" y="491" width="374" height="1"/>
@@ -265,7 +289,7 @@
                                 <color key="textColor" name="navySub5"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MY4-sH-5K7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MY4-sH-5K7">
                                 <rect key="frame" x="272" y="496.5" width="20" height="36"/>
                                 <fontDescription key="fontDescription" name="Pretendard-Bold" family="Pretendard" pointSize="30"/>
                                 <color key="textColor" name="white"/>
@@ -408,9 +432,14 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="beerCountLabel" destination="sbc-3u-9nN" id="qSO-KL-bXl"/>
                         <outlet property="completeButton" destination="y0Y-hB-iwb" id="7Lz-kx-D4Y"/>
+                        <outlet property="etcCountLabel" destination="8hB-Sd-fZb" id="V1V-3z-gzR"/>
                         <outlet property="impressionTextView" destination="d9d-W4-IVL" id="jzY-lZ-r5r"/>
+                        <outlet property="makCountLabel" destination="2Pm-yl-m3f" id="hNi-ih-9Vw"/>
+                        <outlet property="sojuCountLabel" destination="zvp-Tq-rlB" id="Zrb-2u-qdB"/>
                         <outlet property="titleView" destination="KXR-wB-4vE" id="6qo-vo-7ou"/>
+                        <outlet property="totalCountLabel" destination="MY4-sH-5K7" id="4pC-8m-ssa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
