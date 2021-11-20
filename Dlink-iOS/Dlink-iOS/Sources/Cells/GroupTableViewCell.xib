@@ -27,17 +27,18 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Piz-yn-eiP">
                         <rect key="frame" x="20" y="5" width="335" height="75"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBR-C0-1az">
-                                <rect key="frame" x="270" y="13" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="RBR-C0-1az" secondAttribute="height" multiplier="1:1" id="SOh-0g-5ov"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ACK-T5-Ilz">
                                 <rect key="frame" x="0.0" y="0.0" width="335" height="75"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HE7-gd-Or7">
+                                <rect key="frame" x="33" y="46" width="30" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="yeS-td-mPv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Pretendard-Medium" family="Pretendard" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_user" translatesAutoresizingMaskIntoConstraints="NO" id="S3B-xV-6Kj">
                                 <rect key="frame" x="15" y="44" width="18" height="16"/>
                                 <constraints>
@@ -54,15 +55,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HE7-gd-Or7">
-                                <rect key="frame" x="33" y="46" width="30" height="14"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBR-C0-1az">
+                                <rect key="frame" x="270" y="13" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="14" id="yeS-td-mPv"/>
+                                    <constraint firstAttribute="width" secondItem="RBR-C0-1az" secondAttribute="height" multiplier="1:1" id="SOh-0g-5ov"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Pretendard-Medium" family="Pretendard" pointSize="12"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="S3B-xV-6Kj" firstAttribute="leading" secondItem="Piz-yn-eiP" secondAttribute="leading" constant="15" id="9Ad-BK-qVW"/>

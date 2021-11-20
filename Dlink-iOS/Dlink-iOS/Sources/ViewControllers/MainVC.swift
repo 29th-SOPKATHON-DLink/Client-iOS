@@ -29,10 +29,10 @@ class MainVC: UIViewController {
     
     func initDataList() {
         homeContentList.append(contentsOf: [
-            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "cup_icon", backgroundImageName: "group_list_box"),
-            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "cup_icon", backgroundImageName: "group_list_box"),
-            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "cup_icon", backgroundImageName: "group_list_box"),
-            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "cup_icon", backgroundImageName: "group_list_box"),
+            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "check_icon", backgroundImageName: "group_list_box"),
+            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "check_icon", backgroundImageName: "group_list_box"),
+            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "icon_end", backgroundImageName: "end"),
+            GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "icon_end", backgroundImageName: "end"),
         ])
     }
 }
