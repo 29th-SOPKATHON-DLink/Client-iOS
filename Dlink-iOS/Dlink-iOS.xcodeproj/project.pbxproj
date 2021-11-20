@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0DFCF588289F15F4F66A9C6D /* Pods_Dlink_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */; };
+		779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015C62749527A00F83ACD /* GroupTableViewCell.swift */; };
+		779015C92749527A00F83ACD /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779015C72749527A00F83ACD /* GroupTableViewCell.xib */; };
+		779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015CA274952D800F83ACD /* AppContentDataModel.swift */; };
 		92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0EF2749358C005D03EC /* AppDelegate.swift */; };
 		92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F12749358C005D03EC /* SceneDelegate.swift */; };
 		92E9C0F42749358C005D03EC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F32749358C005D03EC /* MainVC.swift */; };
@@ -24,9 +27,7 @@
 		92E9C13F274938AE005D03EC /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C133274938AA005D03EC /* Pretendard-ExtraLight.otf */; };
 		92E9C140274938AE005D03EC /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C135274938AA005D03EC /* Pretendard-Light.otf */; };
 		92E9C141274938AE005D03EC /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C130274938AA005D03EC /* Pretendard-ExtraBold.otf */; };
-		92E9C143274939A4005D03EC /* TempDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C142274939A4005D03EC /* TempDataModel.swift */; };
 		92E9C145274939AD005D03EC /* TempComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C144274939AD005D03EC /* TempComponent.swift */; };
-		92E9C147274939B5005D03EC /* TempCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C146274939B5005D03EC /* TempCell.swift */; };
 		92E9C149274939C3005D03EC /* TempAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C148274939C3005D03EC /* TempAPIService.swift */; };
 		92E9C14B274939D4005D03EC /* TempXib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C14A274939D4005D03EC /* TempXib.storyboard */; };
 		92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C14C27493A3D005D03EC /* UITableViewRegisterable.swift */; };
@@ -38,6 +39,9 @@
 		339AEFBD5AB3702C0A135648 /* Pods-Dlink-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.release.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dlink_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779015C62749527A00F83ACD /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		779015C72749527A00F83ACD /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		779015CA274952D800F83ACD /* AppContentDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentDataModel.swift; sourceTree = "<group>"; };
 		92E9C0EC2749358C005D03EC /* Dlink-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dlink-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9C0EF2749358C005D03EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E9C0F12749358C005D03EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +60,7 @@
 		92E9C136274938AA005D03EC /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		92E9C137274938AA005D03EC /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		92E9C138274938AA005D03EC /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
-		92E9C142274939A4005D03EC /* TempDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDataModel.swift; sourceTree = "<group>"; };
 		92E9C144274939AD005D03EC /* TempComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempComponent.swift; sourceTree = "<group>"; };
-		92E9C146274939B5005D03EC /* TempCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCell.swift; sourceTree = "<group>"; };
 		92E9C148274939C3005D03EC /* TempAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempAPIService.swift; sourceTree = "<group>"; };
 		92E9C14A274939D4005D03EC /* TempXib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TempXib.storyboard; sourceTree = "<group>"; };
 		92E9C14C27493A3D005D03EC /* UITableViewRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewRegisterable.swift; sourceTree = "<group>"; };
@@ -84,7 +86,6 @@
 				339AEFBD5AB3702C0A135648 /* Pods-Dlink-iOS.debug.xcconfig */,
 				3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,7 +212,8 @@
 		92E9C1232749369A005D03EC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				92E9C146274939B5005D03EC /* TempCell.swift */,
+				779015C62749527A00F83ACD /* GroupTableViewCell.swift */,
+				779015C72749527A00F83ACD /* GroupTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -227,7 +229,7 @@
 		92E9C127274936B1005D03EC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				92E9C142274939A4005D03EC /* TempDataModel.swift */,
+				779015CA274952D800F83ACD /* AppContentDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -331,6 +333,7 @@
 				92E9C141274938AE005D03EC /* Pretendard-ExtraBold.otf in Resources */,
 				92E9C13F274938AE005D03EC /* Pretendard-ExtraLight.otf in Resources */,
 				92E9C13C274938AE005D03EC /* Pretendard-SemiBold.otf in Resources */,
+				779015C92749527A00F83ACD /* GroupTableViewCell.xib in Resources */,
 				92E9C13A274938AE005D03EC /* Pretendard-Thin.otf in Resources */,
 				92E9C140274938AE005D03EC /* Pretendard-Light.otf in Resources */,
 				92E9C0F92749358E005D03EC /* Assets.xcassets in Resources */,
@@ -392,8 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E9C149274939C3005D03EC /* TempAPIService.swift in Sources */,
-				92E9C147274939B5005D03EC /* TempCell.swift in Sources */,
-				92E9C143274939A4005D03EC /* TempDataModel.swift in Sources */,
+				779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */,
 				92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */,
 				92E9C14F27493A65005D03EC /* UIView+.swift in Sources */,
 				92E9C145274939AD005D03EC /* TempComponent.swift in Sources */,
@@ -402,6 +404,7 @@
 				92E9C15227493ADD005D03EC /* UIViewController+.swift in Sources */,
 				92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */,
 				92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */,
+				779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
