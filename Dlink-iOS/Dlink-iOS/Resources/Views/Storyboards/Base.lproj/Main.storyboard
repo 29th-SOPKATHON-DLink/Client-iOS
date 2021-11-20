@@ -36,6 +36,9 @@
                                 <rect key="frame" x="40" y="678" width="295" height="70"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="groupmaking_btn"/>
+                                <connections>
+                                    <action selector="touchUpCreateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fi5-aR-mvR"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8j-K7-NwO">
                                 <rect key="frame" x="22" y="400" width="159" height="25"/>
@@ -54,7 +57,6 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" name="navySub3"/>
                                 <constraints>
                                     <constraint firstItem="voi-ge-nSm" firstAttribute="leading" secondItem="xOb-po-MU4" secondAttribute="trailing" constant="7" id="4qi-pO-JYa"/>
                                     <constraint firstAttribute="bottom" secondItem="xOb-po-MU4" secondAttribute="bottom" id="62K-f8-cSR"/>
@@ -442,7 +444,6 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="61" id="1y6-i4-OXK"/>
                                                             <constraint firstAttribute="trailing" secondItem="zcJ-cw-XSN" secondAttribute="trailing" id="3Xn-Mn-jLw"/>
@@ -460,7 +461,6 @@
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="8H2-V1-hcy" firstAttribute="leading" secondItem="SyT-1b-SZA" secondAttribute="trailing" constant="3" id="ADr-os-cP7"/>
                                                     <constraint firstItem="SyT-1b-SZA" firstAttribute="leading" secondItem="rER-aD-vZm" secondAttribute="leading" constant="2" id="k2S-d5-xxp"/>
@@ -502,7 +502,6 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="linkColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="bottom" secondItem="DH4-IQ-eVk" secondAttribute="bottom" id="01f-lj-cRE"/>
                                                             <constraint firstItem="DH4-IQ-eVk" firstAttribute="top" secondItem="hQp-IT-iWf" secondAttribute="top" id="0wM-tH-89Q"/>
@@ -520,7 +519,6 @@
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="hQp-IT-iWf" firstAttribute="leading" secondItem="Sen-yP-06U" secondAttribute="trailing" constant="3" id="1yb-D4-87I"/>
                                                     <constraint firstItem="hQp-IT-iWf" firstAttribute="top" secondItem="5BQ-Oz-IQo" secondAttribute="top" constant="7" id="Hb0-cZ-4oV"/>
@@ -562,7 +560,6 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="ynh-s5-r0t" firstAttribute="leading" secondItem="lcA-R3-psm" secondAttribute="trailing" constant="1" id="1V7-wD-xfN"/>
                                                             <constraint firstAttribute="height" constant="61" id="3UU-cF-gEg"/>
@@ -580,7 +577,6 @@
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="3xL-LP-wQ6" firstAttribute="top" secondItem="P5s-wy-zj2" secondAttribute="top" constant="8" id="7Iu-nY-1oj"/>
                                                     <constraint firstItem="xD2-Lv-WLf" firstAttribute="leading" secondItem="3xL-LP-wQ6" secondAttribute="trailing" constant="3" id="UgV-Fd-RVI"/>
@@ -624,7 +620,6 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="bottom" secondItem="CYw-7f-lN7" secondAttribute="bottom" id="6r0-nf-pFc"/>
                                                             <constraint firstItem="pPC-pQ-Qgf" firstAttribute="leading" secondItem="cbw-sN-vh5" secondAttribute="leading" constant="7" id="ChT-dQ-JOk"/>
@@ -638,7 +633,6 @@
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="HXK-ra-f4C" firstAttribute="top" secondItem="zw8-SG-YXD" secondAttribute="top" constant="8" id="66w-J8-iff"/>
                                                     <constraint firstItem="HXK-ra-f4C" firstAttribute="leading" secondItem="zw8-SG-YXD" secondAttribute="leading" constant="2" id="cM0-xt-YZv"/>
@@ -647,13 +641,11 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="77" id="mju-Iy-4Dw"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstItem="sJf-XE-aeJ" firstAttribute="leading" secondItem="61u-jF-bgW" secondAttribute="trailing" constant="8" id="0cH-Eh-scW"/>
                                     <constraint firstItem="sJf-XE-aeJ" firstAttribute="top" secondItem="Xlp-2K-tMf" secondAttribute="top" constant="35" id="1eZ-eL-X1b"/>
@@ -716,20 +708,8 @@
         <namedColor name="navySub5">
             <color red="0.41200000047683716" green="0.48199999332427979" blue="0.72200000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -15,8 +15,15 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        initUI()
         setTableView()
         initDataList()
+    }
+    @IBAction func touchUpCreateButton(_ sender: Any) {
+        guard let dvc = UIStoryboard(name: "CreateGroup", bundle: nil).instantiateViewController(withIdentifier: "CreateGroupVC") as? CreateGroupVC else { return }
+        dvc.modalPresentationStyle = .fullScreen
+        present(dvc, animated: true, completion: nil)
     }
     
     func setTableView() {
@@ -25,6 +32,8 @@ class MainVC: UIViewController {
         
         groupTableView.dataSource = self
         groupTableView.delegate = self
+        
+        groupTableView.backgroundColor = .clear
     }
     
     func initDataList() {
@@ -34,6 +43,14 @@ class MainVC: UIViewController {
             GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "icon_end", backgroundImageName: "end"),
             GroupContentData(groupName: "홍대 코다차야 모임", groupMember: "김민영님 외 4명", profileImageName: "icon_end", backgroundImageName: "end"),
         ])
+    }
+}
+
+extension MainVC {
+    private func initUI() {
+        let rootLayer = view.getGradient(startColor: .bgStartColor, endColor: .bgEndColor)
+        view.layer.insertSublayer(rootLayer, at: 0)
+        
     }
 }
     
