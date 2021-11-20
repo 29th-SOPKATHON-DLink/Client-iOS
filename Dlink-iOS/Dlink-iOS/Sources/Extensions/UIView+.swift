@@ -26,3 +26,15 @@ extension UIView {
         NSStringFromClass(self.classForCoder).components(separatedBy: ".").last!
     }
 }
+
+extension UIView {
+	func setGradient(startColor: UIColor, endColor: UIColor) {
+		let gradient = CAGradientLayer()
+		gradient.colors = [startColor.cgColor, endColor.cgColor]
+		gradient.locations = [0.0, 1.0]
+		gradient.startPoint = CGPoint(x: 0.0, y: 1.0)
+		gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
+		gradient.frame = bounds
+		layer.addSublayer(gradient)
+	}
+}
