@@ -10,6 +10,13 @@
 		0DFCF588289F15F4F66A9C6D /* Pods_Dlink_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */; };
 		4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B7FC2749592C00F2EC0D /* UIColor+.swift */; };
 		4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */; };
+		779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015C62749527A00F83ACD /* GroupTableViewCell.swift */; };
+		779015C92749527A00F83ACD /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779015C72749527A00F83ACD /* GroupTableViewCell.xib */; };
+		779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015CA274952D800F83ACD /* AppContentDataModel.swift */; };
+		77FE1732274960AE00F95F0D /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FE1731274960AE00F95F0D /* Main.xcassets */; };
+		4F11B80327495D8300F2EC0D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B80227495D8300F2EC0D /* AuthVC.swift */; };
+		4FD8888A274966D3001F9130 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD88889274966D3001F9130 /* Auth.storyboard */; };
+		4FD8888C27497386001F9130 /* Auth.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8888B27497386001F9130 /* Auth.xcassets */; };
 		92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0EF2749358C005D03EC /* AppDelegate.swift */; };
 		92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F12749358C005D03EC /* SceneDelegate.swift */; };
 		92E9C0F42749358C005D03EC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F32749358C005D03EC /* MainVC.swift */; };
@@ -26,9 +33,7 @@
 		92E9C13F274938AE005D03EC /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C133274938AA005D03EC /* Pretendard-ExtraLight.otf */; };
 		92E9C140274938AE005D03EC /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C135274938AA005D03EC /* Pretendard-Light.otf */; };
 		92E9C141274938AE005D03EC /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C130274938AA005D03EC /* Pretendard-ExtraBold.otf */; };
-		92E9C143274939A4005D03EC /* TempDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C142274939A4005D03EC /* TempDataModel.swift */; };
 		92E9C145274939AD005D03EC /* TempComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C144274939AD005D03EC /* TempComponent.swift */; };
-		92E9C147274939B5005D03EC /* TempCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C146274939B5005D03EC /* TempCell.swift */; };
 		92E9C149274939C3005D03EC /* TempAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C148274939C3005D03EC /* TempAPIService.swift */; };
 		92E9C14B274939D4005D03EC /* TempXib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C14A274939D4005D03EC /* TempXib.storyboard */; };
 		92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C14C27493A3D005D03EC /* UITableViewRegisterable.swift */; };
@@ -55,7 +60,14 @@
 		3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.release.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4F11B7FC2749592C00F2EC0D /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorSet.xcassets; sourceTree = "<group>"; };
+		4F11B80227495D8300F2EC0D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		4FD88889274966D3001F9130 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		4FD8888B27497386001F9130 /* Auth.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Auth.xcassets; sourceTree = "<group>"; };
 		643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dlink_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779015C62749527A00F83ACD /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		779015C72749527A00F83ACD /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		779015CA274952D800F83ACD /* AppContentDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentDataModel.swift; sourceTree = "<group>"; };
+		77FE1731274960AE00F95F0D /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
 		92E9C0EC2749358C005D03EC /* Dlink-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dlink-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9C0EF2749358C005D03EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E9C0F12749358C005D03EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,9 +86,7 @@
 		92E9C136274938AA005D03EC /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		92E9C137274938AA005D03EC /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		92E9C138274938AA005D03EC /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
-		92E9C142274939A4005D03EC /* TempDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDataModel.swift; sourceTree = "<group>"; };
 		92E9C144274939AD005D03EC /* TempComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempComponent.swift; sourceTree = "<group>"; };
-		92E9C146274939B5005D03EC /* TempCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCell.swift; sourceTree = "<group>"; };
 		92E9C148274939C3005D03EC /* TempAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempAPIService.swift; sourceTree = "<group>"; };
 		92E9C14A274939D4005D03EC /* TempXib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TempXib.storyboard; sourceTree = "<group>"; };
 		92E9C14C27493A3D005D03EC /* UITableViewRegisterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewRegisterable.swift; sourceTree = "<group>"; };
@@ -196,6 +206,7 @@
 				92E9C0F52749358C005D03EC /* Main.storyboard */,
 				92E9C0FA2749358E005D03EC /* LaunchScreen.storyboard */,
 				92E9C15527495004005D03EC /* CreateGroup.storyboard */,
+				4FD88889274966D3001F9130 /* Auth.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -224,7 +235,9 @@
 			children = (
 				92E9C0F82749358E005D03EC /* Assets.xcassets */,
 				4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */,
+				77FE1731274960AE00F95F0D /* Main.xcassets */,
 				92E9C15927495D22005D03EC /* CreateGroup.xcassets */,
+				4FD8888B27497386001F9130 /* Auth.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -243,6 +256,7 @@
 			children = (
 				92E9C0F32749358C005D03EC /* MainVC.swift */,
 				92E9C15727495025005D03EC /* CreateGroupVC.swift */,
+				4F11B80227495D8300F2EC0D /* AuthVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -250,7 +264,8 @@
 		92E9C1232749369A005D03EC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				92E9C146274939B5005D03EC /* TempCell.swift */,
+				779015C62749527A00F83ACD /* GroupTableViewCell.swift */,
+				779015C72749527A00F83ACD /* GroupTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -272,6 +287,7 @@
 				92E9C16F27499642005D03EC /* CreateGroupResponse.swift */,
 				92E9C1752749A1F2005D03EC /* AuthRequest.swift */,
 				92E9C1772749A1FC005D03EC /* AuthResponse.swift */,
+				779015CA274952D800F83ACD /* AppContentDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -397,14 +413,18 @@
 				92E9C13F274938AE005D03EC /* Pretendard-ExtraLight.otf in Resources */,
 				92E9C15627495004005D03EC /* CreateGroup.storyboard in Resources */,
 				92E9C13C274938AE005D03EC /* Pretendard-SemiBold.otf in Resources */,
+				779015C92749527A00F83ACD /* GroupTableViewCell.xib in Resources */,
 				92E9C13A274938AE005D03EC /* Pretendard-Thin.otf in Resources */,
 				92E9C140274938AE005D03EC /* Pretendard-Light.otf in Resources */,
 				92E9C0F92749358E005D03EC /* Assets.xcassets in Resources */,
 				92E9C14B274939D4005D03EC /* TempXib.storyboard in Resources */,
 				92E9C0F72749358C005D03EC /* Main.storyboard in Resources */,
 				4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */,
+				4FD8888C27497386001F9130 /* Auth.xcassets in Resources */,
 				92E9C13D274938AE005D03EC /* Pretendard-Black.otf in Resources */,
+				4FD8888A274966D3001F9130 /* Auth.storyboard in Resources */,
 				92E9C13E274938AE005D03EC /* Pretendard-Bold.otf in Resources */,
+				77FE1732274960AE00F95F0D /* Main.xcassets in Resources */,
 				92E9C139274938AE005D03EC /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,11 +485,13 @@
 				92E9C16027496466005D03EC /* ParticipantTVC.swift in Sources */,
 				92E9C147274939B5005D03EC /* TempCell.swift in Sources */,
 				92E9C143274939A4005D03EC /* TempDataModel.swift in Sources */,
+				779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */,
 				92E9C1742749A15E005D03EC /* AuthService.swift in Sources */,
 				92E9C16427498364005D03EC /* APIConstants.swift in Sources */,
 				92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */,
 				92E9C14F27493A65005D03EC /* UIView+.swift in Sources */,
 				4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */,
+				4F11B80327495D8300F2EC0D /* AuthVC.swift in Sources */,
 				92E9C145274939AD005D03EC /* TempComponent.swift in Sources */,
 				92E9C12E274936F4005D03EC /* UIFont+.swift in Sources */,
 				92E9C0F42749358C005D03EC /* MainVC.swift in Sources */,
@@ -477,6 +499,7 @@
 				92E9C15227493ADD005D03EC /* UIViewController+.swift in Sources */,
 				92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */,
 				92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */,
+				779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */,
 				92E9C16E274995BE005D03EC /* CreateGroupRequest.swift in Sources */,
 				92E9C166274984DD005D03EC /* NetworkResult.swift in Sources */,
 				92E9C1782749A1FC005D03EC /* AuthResponse.swift in Sources */,
@@ -630,7 +653,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				DEVELOPMENT_TEAM = 7J855UGZA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dlink-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
