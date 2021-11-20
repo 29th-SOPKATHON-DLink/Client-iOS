@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFCF588289F15F4F66A9C6D /* Pods_Dlink_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */; };
 		92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0EF2749358C005D03EC /* AppDelegate.swift */; };
 		92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F12749358C005D03EC /* SceneDelegate.swift */; };
 		92E9C0F42749358C005D03EC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F32749358C005D03EC /* MainVC.swift */; };
@@ -34,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		339AEFBD5AB3702C0A135648 /* Pods-Dlink-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dlink-iOS.release.xcconfig"; path = "Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dlink_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9C0EC2749358C005D03EC /* Dlink-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dlink-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9C0EF2749358C005D03EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E9C0F12749358C005D03EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,17 +71,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFCF588289F15F4F66A9C6D /* Pods_Dlink_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F24E49C9A01499DEFE8C30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				339AEFBD5AB3702C0A135648 /* Pods-Dlink-iOS.debug.xcconfig */,
+				3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4FCD9A46FC07D0A15F91CEF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92E9C0E32749358C005D03EC = {
 			isa = PBXGroup;
 			children = (
 				92E9C0EE2749358C005D03EC /* Dlink-iOS */,
 				92E9C0ED2749358C005D03EC /* Products */,
+				09F24E49C9A01499DEFE8C30 /* Pods */,
+				4FCD9A46FC07D0A15F91CEF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92E9C1002749358E005D03EC /* Build configuration list for PBXNativeTarget "Dlink-iOS" */;
 			buildPhases = (
+				9FD4448A9C11F18DF0DB3546 /* [CP] Check Pods Manifest.lock */,
 				92E9C0E82749358C005D03EC /* Sources */,
 				92E9C0E92749358C005D03EC /* Frameworks */,
 				92E9C0EA2749358C005D03EC /* Resources */,
+				8E174B1CE7573B5A453443DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +343,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E174B1CE7573B5A453443DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dlink-iOS/Pods-Dlink-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD4448A9C11F18DF0DB3546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dlink-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92E9C0E82749358C005D03EC /* Sources */ = {
@@ -476,6 +545,7 @@
 		};
 		92E9C1012749358E005D03EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339AEFBD5AB3702C0A135648 /* Pods-Dlink-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +574,7 @@
 		};
 		92E9C1022749358E005D03EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3F11D86810F6B68535FA65 /* Pods-Dlink-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
