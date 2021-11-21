@@ -29,14 +29,23 @@ class CreateGroupVC: UIViewController {
         super.viewDidLoad()
 
         initUI()
-        setData()
         setTableView()
     }
     
+    @IBAction func touhcUpCompleteButton(_ sender: Any) {
+        guard let presentingVC = self.presentingViewController as? MainVC else {return}
+        presentingVC.setDataList()
+                
+        NotificationCenter.default.post(name: NSNotification.Name("Dismiss"), object: nil)
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
 extension CreateGroupVC {
     func initUI() {
+        let rootLayer = view.getGradient(startColor: .bgStartColor, endColor: .bgEndColor)
+        view.layer.insertSublayer(rootLayer, at: 0)
+        
         topView.layer.cornerRadius = 50
         topView.layer.masksToBounds = true
         topView.layer.maskedCorners = [.layerMaxXMaxYCorner]
@@ -46,18 +55,12 @@ extension CreateGroupVC {
         
         completeButton.layer.backgroundColor = UIColor.white.cgColor
         completeButton.configuration?.contentInsets = .init(top: 15, leading: 147, bottom: 40, trailing: 147)
+
         
         titleTextView.delegate = self
         titleTextView.font = UIFont(name: "Pretendard-Bold", size: 25)
     }
     
-    func setData() {
-        participantList.append(contentsOf: [
-            ParticipantDataModel(partName: "android", userName: "홍승현"),
-            ParticipantDataModel(partName: "android", userName: "김소연"),
-            ParticipantDataModel(partName: "android", userName: "최은주")
-        ])
-    }
     
     func setTableView() {
         participantTableView.delegate = self
@@ -87,7 +90,6 @@ extension CreateGroupVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: ParticipantTVC.identifier) as? ParticipantTVC else { return UITableViewCell() }
         cell.isSelected = false
-        cell.initCell(partName: participantList[indexPath.row].partName, userName: participantList[indexPath.row].userName)
         return cell
     }
 }

@@ -53,6 +53,10 @@
 		92E9C15C27496372005D03EC /* ParticipantDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15B27496372005D03EC /* ParticipantDataModel.swift */; };
 		92E9C16027496466005D03EC /* ParticipantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15E27496466005D03EC /* ParticipantTVC.swift */; };
 		92E9C16127496466005D03EC /* ParticipantTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C15F27496466005D03EC /* ParticipantTVC.xib */; };
+		92E9C16E274995BE005D03EC /* CreateGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C16D274995BE005D03EC /* CreateGroupRequest.swift */; };
+		92E9C17027499642005D03EC /* CreateGroupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C16F27499642005D03EC /* CreateGroupResponse.swift */; };
+		92E9C1762749A1F2005D03EC /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C1752749A1F2005D03EC /* AuthRequest.swift */; };
+		92E9C1782749A1FC005D03EC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C1772749A1FC005D03EC /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +110,12 @@
 		92E9C15B27496372005D03EC /* ParticipantDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantDataModel.swift; sourceTree = "<group>"; };
 		92E9C15E27496466005D03EC /* ParticipantTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantTVC.swift; sourceTree = "<group>"; };
 		92E9C15F27496466005D03EC /* ParticipantTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantTVC.xib; sourceTree = "<group>"; };
+		92E9C165274984DD005D03EC /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		92E9C16D274995BE005D03EC /* CreateGroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupRequest.swift; sourceTree = "<group>"; };
+		92E9C16F27499642005D03EC /* CreateGroupResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupResponse.swift; sourceTree = "<group>"; };
+		92E9C17127499D4D005D03EC /* CreateGroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupService.swift; sourceTree = "<group>"; };
+		92E9C1752749A1F2005D03EC /* AuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
+		92E9C1772749A1FC005D03EC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +163,7 @@
 				92E9C0ED2749358C005D03EC /* Products */,
 				09F24E49C9A01499DEFE8C30 /* Pods */,
 				4FCD9A46FC07D0A15F91CEF6 /* Frameworks */,
+				92E9C17C2749C766005D03EC /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -293,6 +304,10 @@
 			isa = PBXGroup;
 			children = (
 				92E9C15B27496372005D03EC /* ParticipantDataModel.swift */,
+				92E9C16D274995BE005D03EC /* CreateGroupRequest.swift */,
+				92E9C16F27499642005D03EC /* CreateGroupResponse.swift */,
+				92E9C1752749A1F2005D03EC /* AuthRequest.swift */,
+				92E9C1772749A1FC005D03EC /* AuthResponse.swift */,
 				779015CA274952D800F83ACD /* AppContentDataModel.swift */,
 				4FD888982749BA15001F9130 /* GetGroupDataModel.swift */,
 				4FD8889C2749BF47001F9130 /* RankServiceDataModel.swift */,
@@ -342,6 +357,15 @@
 				92E9C15F27496466005D03EC /* ParticipantTVC.xib */,
 			);
 			path = CreateGroup;
+			sourceTree = "<group>";
+		};
+		92E9C17C2749C766005D03EC /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				92E9C17127499D4D005D03EC /* CreateGroupService.swift */,
+				92E9C165274984DD005D03EC /* NetworkResult.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,6 +501,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E9C17027499642005D03EC /* CreateGroupResponse.swift in Sources */,
+				92E9C1762749A1F2005D03EC /* AuthRequest.swift in Sources */,
 				92E9C149274939C3005D03EC /* TempAPIService.swift in Sources */,
 				92E9C16027496466005D03EC /* ParticipantTVC.swift in Sources */,
 				4FD888992749BA15001F9130 /* GetGroupDataModel.swift in Sources */,
@@ -497,6 +523,8 @@
 				92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */,
 				92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */,
 				779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */,
+				92E9C16E274995BE005D03EC /* CreateGroupRequest.swift in Sources */,
+				92E9C1782749A1FC005D03EC /* AuthResponse.swift in Sources */,
 				92E9C15C27496372005D03EC /* ParticipantDataModel.swift in Sources */,
 				4FD8889D2749BF47001F9130 /* RankServiceDataModel.swift in Sources */,
 				4FD888972749B98A001F9130 /* GetGroupService.swift in Sources */,

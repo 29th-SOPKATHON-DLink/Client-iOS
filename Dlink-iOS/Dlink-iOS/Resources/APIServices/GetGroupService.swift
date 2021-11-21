@@ -15,7 +15,7 @@ struct GetGroupService {
 	/// 선택한 그룹 보여주기
 	
 	func getSelectedGroup(userId: Int, completion: @escaping (NetworkResult<Any>) -> (Void)) {
-		let url = APIConstants.meeting + "\(userId)"
+        let url = APIConstants.meeting.appendingPathComponent("\(userId)")
 		
 		let header: HTTPHeaders = [
 			"Content-Type": "application/json"

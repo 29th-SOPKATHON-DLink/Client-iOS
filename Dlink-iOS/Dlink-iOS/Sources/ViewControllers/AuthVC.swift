@@ -100,6 +100,10 @@ class AuthVC: UIViewController {
 		return
 	}
     
+    @IBAction func touchUpComplte(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil
+        )
+    }
 }
 
 // MARK: - Keyboard 관련 extension
