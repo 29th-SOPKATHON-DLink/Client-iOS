@@ -34,12 +34,19 @@ class CreateGroupVC: UIViewController {
     }
     
     @IBAction func touhcUpCompleteButton(_ sender: Any) {
+        guard let presentingVC = self.presentingViewController as? MainVC else {return}
+        presentingVC.setDataList()
+                
+        NotificationCenter.default.post(name: NSNotification.Name("Dismiss"), object: nil)
         self.dismiss(animated: true, completion: nil)
     }
 }
 
 extension CreateGroupVC {
     func initUI() {
+        let rootLayer = view.getGradient(startColor: .bgStartColor, endColor: .bgEndColor)
+        view.layer.insertSublayer(rootLayer, at: 0)
+        
         topView.layer.cornerRadius = 50
         topView.layer.masksToBounds = true
         topView.layer.maskedCorners = [.layerMaxXMaxYCorner]
