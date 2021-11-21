@@ -10,15 +10,21 @@ import Foundation
 struct APIConstants {
     
     // MARK: - Base URL
+	static var baseURL: URL {
+		guard let url = URL(string: Bundle.main.infoDictionary?["API_URL"] as? String ?? "") else {
+			fatalError("invalid url")
+		}
+		return url
+	}
     
-    static let baseURL = ""
+    // MARK: - home
     
-    // MARK: - /user
+	static let homeRankingURL = baseURL.appendingPathComponent("/home/rank")
+	static let homeMeetingURL = baseURL.appendingPathComponent("/home/meeting")
+	
+	// MARK: - meeting
     
-    static let homeRankingURL = baseURL + "/home/rank"
-    static let homeMeetingURL = baseURL + "/home/meeting"
-    
-    static let meeting = baseURL + "/meeting"
-    static let meetingUser = baseURL + "/meeting/user"
-    static let meetingOpen = baseURL + "/meeting/open"
+	static let meeting = baseURL.appendingPathComponent("/meeting")
+	static let meetingUser = baseURL.appendingPathComponent("/meeting/user")
+	static let meetingOpen = baseURL.appendingPathComponent("/meeting/open")
 }

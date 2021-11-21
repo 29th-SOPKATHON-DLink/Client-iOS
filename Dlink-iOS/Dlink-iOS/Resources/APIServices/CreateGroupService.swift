@@ -11,8 +11,10 @@ import Alamofire
 struct CreateGroupService {
     static let shared = CreateGroupService()
     
+	/// 유저 리스트 확인하기
+	
     func readParticipantData(userId: Int, completion: @escaping (NetworkResult<Any>) -> (Void)) {
-        let url = APIConstants.meeting + "\(userId)"
+		let url = APIConstants.meetingUser
         
         let header: HTTPHeaders = [
             "Content-Type": "application/json"
@@ -33,8 +35,10 @@ struct CreateGroupService {
         }
     }
     
+	/// 번개 등록하기
+	
     func postGroupData(userId: Int, completion: @escaping (NetworkResult<Any>) -> (Void)) {
-        let url = APIConstants.meeting + "\(userId)"
+		let url = APIConstants.meetingOpen
         
         let header: HTTPHeaders = [
             "Content-Type": "application/json"
@@ -66,7 +70,7 @@ struct CreateGroupService {
     
     private func isValidData(data: Data) -> NetworkResult<Any> {
         let decoder = JSONDecoder()
-        guard let decodedData = try? decoder.decode(CreateGroupResponse.self, from: data) else { return .pathErr }
+        guard let decodedData = try? decoder.decode(ParticipantDataModel.self, from: data) else { return .pathErr }
         return .success(decodedData)
     }
 }

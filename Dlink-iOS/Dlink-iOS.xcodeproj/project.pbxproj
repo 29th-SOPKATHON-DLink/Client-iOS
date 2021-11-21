@@ -10,13 +10,21 @@
 		0DFCF588289F15F4F66A9C6D /* Pods_Dlink_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */; };
 		4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B7FC2749592C00F2EC0D /* UIColor+.swift */; };
 		4F11B7FF27495B8900F2EC0D /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F11B7FE27495B8900F2EC0D /* ColorSet.xcassets */; };
+		4F11B80327495D8300F2EC0D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B80227495D8300F2EC0D /* AuthVC.swift */; };
+		4FD8888A274966D3001F9130 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD88889274966D3001F9130 /* Auth.storyboard */; };
+		4FD8888C27497386001F9130 /* Auth.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8888B27497386001F9130 /* Auth.xcassets */; };
+		4FD8888F2749B55A001F9130 /* CreateGroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8888D2749B55A001F9130 /* CreateGroupService.swift */; };
+		4FD888902749B55A001F9130 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8888E2749B55A001F9130 /* AuthService.swift */; };
+		4FD888942749B5A8001F9130 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888922749B5A8001F9130 /* APIConstants.swift */; };
+		4FD888952749B5A8001F9130 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888932749B5A8001F9130 /* NetworkResult.swift */; };
+		4FD888972749B98A001F9130 /* GetGroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888962749B98A001F9130 /* GetGroupService.swift */; };
+		4FD888992749BA15001F9130 /* GetGroupDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD888982749BA15001F9130 /* GetGroupDataModel.swift */; };
+		4FD8889B2749BEB5001F9130 /* RankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8889A2749BEB4001F9130 /* RankService.swift */; };
+		4FD8889D2749BF47001F9130 /* RankServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8889C2749BF47001F9130 /* RankServiceDataModel.swift */; };
 		779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015C62749527A00F83ACD /* GroupTableViewCell.swift */; };
 		779015C92749527A00F83ACD /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779015C72749527A00F83ACD /* GroupTableViewCell.xib */; };
 		779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779015CA274952D800F83ACD /* AppContentDataModel.swift */; };
 		77FE1732274960AE00F95F0D /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FE1731274960AE00F95F0D /* Main.xcassets */; };
-		4F11B80327495D8300F2EC0D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B80227495D8300F2EC0D /* AuthVC.swift */; };
-		4FD8888A274966D3001F9130 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD88889274966D3001F9130 /* Auth.storyboard */; };
-		4FD8888C27497386001F9130 /* Auth.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8888B27497386001F9130 /* Auth.xcassets */; };
 		92E9C0F02749358C005D03EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0EF2749358C005D03EC /* AppDelegate.swift */; };
 		92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F12749358C005D03EC /* SceneDelegate.swift */; };
 		92E9C0F42749358C005D03EC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C0F32749358C005D03EC /* MainVC.swift */; };
@@ -45,12 +53,8 @@
 		92E9C15C27496372005D03EC /* ParticipantDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15B27496372005D03EC /* ParticipantDataModel.swift */; };
 		92E9C16027496466005D03EC /* ParticipantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C15E27496466005D03EC /* ParticipantTVC.swift */; };
 		92E9C16127496466005D03EC /* ParticipantTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92E9C15F27496466005D03EC /* ParticipantTVC.xib */; };
-		92E9C16427498364005D03EC /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C16327498364005D03EC /* APIConstants.swift */; };
-		92E9C166274984DD005D03EC /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C165274984DD005D03EC /* NetworkResult.swift */; };
 		92E9C16E274995BE005D03EC /* CreateGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C16D274995BE005D03EC /* CreateGroupRequest.swift */; };
 		92E9C17027499642005D03EC /* CreateGroupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C16F27499642005D03EC /* CreateGroupResponse.swift */; };
-		92E9C17227499D4D005D03EC /* CreateGroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C17127499D4D005D03EC /* CreateGroupService.swift */; };
-		92E9C1742749A15E005D03EC /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C1732749A15E005D03EC /* AuthService.swift */; };
 		92E9C1762749A1F2005D03EC /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C1752749A1F2005D03EC /* AuthRequest.swift */; };
 		92E9C1782749A1FC005D03EC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E9C1772749A1FC005D03EC /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +67,14 @@
 		4F11B80227495D8300F2EC0D /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		4FD88889274966D3001F9130 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		4FD8888B27497386001F9130 /* Auth.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Auth.xcassets; sourceTree = "<group>"; };
+		4FD8888D2749B55A001F9130 /* CreateGroupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupService.swift; sourceTree = "<group>"; };
+		4FD8888E2749B55A001F9130 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4FD888922749B5A8001F9130 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		4FD888932749B5A8001F9130 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		4FD888962749B98A001F9130 /* GetGroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGroupService.swift; sourceTree = "<group>"; };
+		4FD888982749BA15001F9130 /* GetGroupDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGroupDataModel.swift; sourceTree = "<group>"; };
+		4FD8889A2749BEB4001F9130 /* RankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankService.swift; sourceTree = "<group>"; };
+		4FD8889C2749BF47001F9130 /* RankServiceDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankServiceDataModel.swift; sourceTree = "<group>"; };
 		643CCAF080630C1FF243A906 /* Pods_Dlink_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dlink_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		779015C62749527A00F83ACD /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		779015C72749527A00F83ACD /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
@@ -98,12 +110,10 @@
 		92E9C15B27496372005D03EC /* ParticipantDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantDataModel.swift; sourceTree = "<group>"; };
 		92E9C15E27496466005D03EC /* ParticipantTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantTVC.swift; sourceTree = "<group>"; };
 		92E9C15F27496466005D03EC /* ParticipantTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantTVC.xib; sourceTree = "<group>"; };
-		92E9C16327498364005D03EC /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		92E9C165274984DD005D03EC /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		92E9C16D274995BE005D03EC /* CreateGroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupRequest.swift; sourceTree = "<group>"; };
 		92E9C16F27499642005D03EC /* CreateGroupResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupResponse.swift; sourceTree = "<group>"; };
 		92E9C17127499D4D005D03EC /* CreateGroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupService.swift; sourceTree = "<group>"; };
-		92E9C1732749A15E005D03EC /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		92E9C1752749A1F2005D03EC /* AuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
 		92E9C1772749A1FC005D03EC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +147,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4FD888912749B58B001F9130 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD888922749B5A8001F9130 /* APIConstants.swift */,
+				4FD888932749B5A8001F9130 /* NetworkResult.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
 		92E9C0E32749358C005D03EC = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +163,7 @@
 				92E9C0ED2749358C005D03EC /* Products */,
 				09F24E49C9A01499DEFE8C30 /* Pods */,
 				4FCD9A46FC07D0A15F91CEF6 /* Frameworks */,
+				92E9C17C2749C766005D03EC /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,7 +199,7 @@
 		92E9C104274935A2005D03EC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				92E9C16227498349005D03EC /* Networks */,
+				4FD888912749B58B001F9130 /* Networks */,
 				92E9C15027493A84005D03EC /* Protocols */,
 				92E9C128274936B7005D03EC /* Extensions */,
 				92E9C127274936B1005D03EC /* Models */,
@@ -223,9 +243,11 @@
 		92E9C10A274935EF005D03EC /* APIServices */ = {
 			isa = PBXGroup;
 			children = (
+				4FD8888E2749B55A001F9130 /* AuthService.swift */,
+				4FD8888D2749B55A001F9130 /* CreateGroupService.swift */,
 				92E9C148274939C3005D03EC /* TempAPIService.swift */,
-				92E9C17127499D4D005D03EC /* CreateGroupService.swift */,
-				92E9C1732749A15E005D03EC /* AuthService.swift */,
+				4FD888962749B98A001F9130 /* GetGroupService.swift */,
+				4FD8889A2749BEB4001F9130 /* RankService.swift */,
 			);
 			path = APIServices;
 			sourceTree = "<group>";
@@ -281,13 +303,14 @@
 		92E9C127274936B1005D03EC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				92E9C142274939A4005D03EC /* TempDataModel.swift */,
 				92E9C15B27496372005D03EC /* ParticipantDataModel.swift */,
 				92E9C16D274995BE005D03EC /* CreateGroupRequest.swift */,
 				92E9C16F27499642005D03EC /* CreateGroupResponse.swift */,
 				92E9C1752749A1F2005D03EC /* AuthRequest.swift */,
 				92E9C1772749A1FC005D03EC /* AuthResponse.swift */,
 				779015CA274952D800F83ACD /* AppContentDataModel.swift */,
+				4FD888982749BA15001F9130 /* GetGroupDataModel.swift */,
+				4FD8889C2749BF47001F9130 /* RankServiceDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -336,13 +359,13 @@
 			path = CreateGroup;
 			sourceTree = "<group>";
 		};
-		92E9C16227498349005D03EC /* Networks */ = {
+		92E9C17C2749C766005D03EC /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				92E9C16327498364005D03EC /* APIConstants.swift */,
+				92E9C17127499D4D005D03EC /* CreateGroupService.swift */,
 				92E9C165274984DD005D03EC /* NetworkResult.swift */,
 			);
-			path = Networks;
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -480,20 +503,20 @@
 			files = (
 				92E9C17027499642005D03EC /* CreateGroupResponse.swift in Sources */,
 				92E9C1762749A1F2005D03EC /* AuthRequest.swift in Sources */,
-				92E9C17227499D4D005D03EC /* CreateGroupService.swift in Sources */,
 				92E9C149274939C3005D03EC /* TempAPIService.swift in Sources */,
 				92E9C16027496466005D03EC /* ParticipantTVC.swift in Sources */,
-				92E9C147274939B5005D03EC /* TempCell.swift in Sources */,
-				92E9C143274939A4005D03EC /* TempDataModel.swift in Sources */,
+				4FD888992749BA15001F9130 /* GetGroupDataModel.swift in Sources */,
+				4FD8889B2749BEB5001F9130 /* RankService.swift in Sources */,
 				779015C82749527A00F83ACD /* GroupTableViewCell.swift in Sources */,
-				92E9C1742749A15E005D03EC /* AuthService.swift in Sources */,
-				92E9C16427498364005D03EC /* APIConstants.swift in Sources */,
+				4FD888902749B55A001F9130 /* AuthService.swift in Sources */,
 				92E9C14D27493A3D005D03EC /* UITableViewRegisterable.swift in Sources */,
+				4FD888942749B5A8001F9130 /* APIConstants.swift in Sources */,
 				92E9C14F27493A65005D03EC /* UIView+.swift in Sources */,
 				4F11B7FD2749592C00F2EC0D /* UIColor+.swift in Sources */,
 				4F11B80327495D8300F2EC0D /* AuthVC.swift in Sources */,
 				92E9C145274939AD005D03EC /* TempComponent.swift in Sources */,
 				92E9C12E274936F4005D03EC /* UIFont+.swift in Sources */,
+				4FD888952749B5A8001F9130 /* NetworkResult.swift in Sources */,
 				92E9C0F42749358C005D03EC /* MainVC.swift in Sources */,
 				92E9C15827495025005D03EC /* CreateGroupVC.swift in Sources */,
 				92E9C15227493ADD005D03EC /* UIViewController+.swift in Sources */,
@@ -501,9 +524,11 @@
 				92E9C0F22749358C005D03EC /* SceneDelegate.swift in Sources */,
 				779015CB274952D800F83ACD /* AppContentDataModel.swift in Sources */,
 				92E9C16E274995BE005D03EC /* CreateGroupRequest.swift in Sources */,
-				92E9C166274984DD005D03EC /* NetworkResult.swift in Sources */,
 				92E9C1782749A1FC005D03EC /* AuthResponse.swift in Sources */,
 				92E9C15C27496372005D03EC /* ParticipantDataModel.swift in Sources */,
+				4FD8889D2749BF47001F9130 /* RankServiceDataModel.swift in Sources */,
+				4FD888972749B98A001F9130 /* GetGroupService.swift in Sources */,
+				4FD8888F2749B55A001F9130 /* CreateGroupService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

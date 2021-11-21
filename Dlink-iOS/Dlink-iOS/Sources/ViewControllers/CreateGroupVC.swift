@@ -29,7 +29,6 @@ class CreateGroupVC: UIViewController {
         super.viewDidLoad()
 
         initUI()
-        setData()
         setTableView()
     }
     
@@ -62,19 +61,6 @@ extension CreateGroupVC {
         titleTextView.font = UIFont(name: "Pretendard-Bold", size: 25)
     }
     
-    func setData() {
-        participantList.append(contentsOf: [
-            ParticipantDataModel(partName: "iOS", userName: "홍승현"),
-            ParticipantDataModel(partName: "iOS", userName: "김소연"),
-            ParticipantDataModel(partName: "iOS", userName: "최은주"),
-            ParticipantDataModel(partName: "기획", userName: "김두범"),
-            ParticipantDataModel(partName: "기획", userName: "윤지영"),
-            ParticipantDataModel(partName: "Design", userName: "김민영"),
-            ParticipantDataModel(partName: "Design", userName: "서채원"),
-            ParticipantDataModel(partName: "Server", userName: "한수아"),
-            ParticipantDataModel(partName: "Server", userName: "남지윤"),
-        ])
-    }
     
     func setTableView() {
         participantTableView.delegate = self
@@ -104,7 +90,6 @@ extension CreateGroupVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: ParticipantTVC.identifier) as? ParticipantTVC else { return UITableViewCell() }
         cell.isSelected = false
-        cell.initCell(partName: participantList[indexPath.row].partName, userName: participantList[indexPath.row].userName)
         return cell
     }
 }

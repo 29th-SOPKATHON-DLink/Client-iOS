@@ -45,7 +45,7 @@ struct AuthService {
     
     private func isValidData(data: Data) -> NetworkResult<Any> {
         let decoder = JSONDecoder()
-        guard let decodedData = try? decoder.decode(CreateGroupResponse.self, from: data) else { return .pathErr }
+        guard let decodedData = try? decoder.decode(ParticipantDataModel.self, from: data) else { return .pathErr }
         return .success(decodedData)
     }
 }
